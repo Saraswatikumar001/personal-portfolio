@@ -32,7 +32,7 @@ export default function Home() {
     const controls = [
       animate(count1, 10, { duration: 2 }),
       animate(count2, 8, { duration: 2 }),
-      animate(count3, 1, { duration: 2 }),
+      animate(count3, 0.6, { duration: 2 }),
       animate(count4, 2, { duration: 2.5 }),
     ]
     return () => controls.forEach(ctrl => ctrl.stop())
@@ -90,7 +90,7 @@ export default function Home() {
         </div>
         <div className="flex items-center flex-row lg:justify-center md:justify-center justify-center lg:mb-0 md:mb-5 mb-5">
           <h2 className="lg:text-6xl md:text-4xl text-4xl text-white me-2"><motion.span>{rounded3}</motion.span>+</h2>
-          <p className="lg:text-lg md:text-lg text-base text-white mb-0 capitalize">years of<br />experience</p>
+          <p className="lg:text-lg md:text-lg text-base text-white mb-0 capitalize">months of<br />experience</p>
         </div>
         <div className="flex items-center flex-row lg:justify-end md:justify-center justify-center">
           <h2 className="lg:text-6xl md:text-4xl text-4xl text-white me-2"><motion.span>{rounded4}</motion.span>+</h2>
@@ -187,14 +187,9 @@ export default function Home() {
                   <CardTitle className="text-base">DIGITYX</CardTitle>
                 </CardHeader>
                 <CardHeader className="bg-[#1a0b26] py-5 px-5 rounded-xl shadow border-2">
-                  <CardTitle className="text-[#693DC3] text-sm">April 2024 - November 2024</CardTitle>
-                  <CardTitle className="uppercase text-base lg:text-2xl">Frontend developer</CardTitle>
-                  <CardTitle className="text-base">DIGITYX</CardTitle>
-                </CardHeader>
-                <CardHeader className="bg-[#1a0b26] py-5 px-5 rounded-xl shadow border-2">
-                  <CardTitle className="text-[#693DC3] text-sm">March 2023 - April 2024</CardTitle>
-                  <CardTitle className="uppercase text-base lg:text-2xl">Adminstrative assistant</CardTitle>
-                  <CardTitle className="text-base">M/s Solution Agency</CardTitle>
+                  <CardTitle className="text-[#693DC3] text-sm">March 2024 - February 2025</CardTitle>
+                  <CardTitle className="uppercase text-base lg:text-2xl">Customer Support Executive</CardTitle>
+                  <CardTitle className="text-base">Maxicus</CardTitle>
                 </CardHeader>
               </Card>
             </div>
@@ -216,7 +211,7 @@ export default function Home() {
                 <CardHeader className="bg-[#1a0b26] py-5 px-5 rounded-xl shadow border-2">
                   <CardTitle className="text-[#693DC3] text-sm">Higher Secondary</CardTitle>
                   <CardTitle className="uppercase text-base lg:text-2xl">Class XII</CardTitle>
-                  <CardTitle className="text-base">Nangi High School</CardTitle>
+                  <CardTitle className="text-base">Dhaniakhali Mahamaya Vidyamandir</CardTitle>
                 </CardHeader>
               </Card>
             </div>
@@ -348,7 +343,7 @@ export default function Home() {
               — reach out today.</CardDescription>
             <ContactForm />
           </Card>
-          <Card className="lg:w-1/2 lg:ms-5 bg-transparent border-0 flex justify-center items-center">
+          <Card className="lg:w-1/2 lg:ms-5 bg-transparent border-0 flex justify-left items-center">
             <div>
               <Link href="tel:+916295503700" target="_blank" className="flex gap-3 items-center mb-8">
                 <Button className="rounded-full px-3 mb-0 transition duration-300 ease-in-out cursor-pointer text-xl py-5.5 hover:bg-[#1A0B26] text-[#1A0B26] hover:text-white border hover:border-white"><i className="ri-phone-line"></i></Button>
@@ -368,7 +363,7 @@ export default function Home() {
                 <Button className="rounded-full px-3 mb-0 transition duration-300 ease-in-out cursor-pointer text-xl py-5.5 hover:bg-[#1A0B26] text-[#1A0B26] hover:text-white border hover:border-white"><i className="ri-map-pin-line"></i></Button>
                 <div>
                   <p className="capitalize">locate me</p>
-                  <h5 className="mb-0 capitalize">c-452, ramdashatti, garden reach, kolkata: 700024</h5>
+                  <h5 className="mb-0 capitalize">Barasat, kajipara, Pin-700124</h5>
                 </div>
               </Link>
             </div>
