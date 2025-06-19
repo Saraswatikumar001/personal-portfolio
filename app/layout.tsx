@@ -11,7 +11,7 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "Personal portfolio - Jit Nath",
+  title: "Personal portfolio - Saraswati Kumar",
   description: "Full Stack Web Developer specializing in Core PHP, Laravel, jQuery, and modern frontend technologies. Crafting responsive, scalable, and dynamic web solutions with a focus on performance and user experience.",
   icons: {
     icon: "/images/logo.png",
