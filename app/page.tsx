@@ -47,17 +47,14 @@ export default function Home() {
           <p className="text-base text-wrap mb-12">I am a Frontend Developer with experience in building responsive, user-friendly interfaces using HTML, CSS, JavaScript, jQuery, Bootstrap, and React. Skilled in UI/UX, performance optimization, and cross-browser compatibility. Collaborative and detail-oriented, with a strong ability to convert design mockups into scalable, high-quality frontend solutions.</p>
           <div className="flex flex-row">
             <Button className="text-sm me-5 cursor-pointer rounded-3xl" variant="outline">Follow me on<i className="ri-arrow-right-s-line"></i></Button>
-            <a href="https://www.linkedin.com/in/itz-jit-nath/" target="_blank" className="me-2">
+            <a href="https://www.linkedin.com/in/saraswati-kumar" target="_blank" className="me-2">
               <Button variant="outline" className="text-lg p-2 cursor-pointer rounded-3xl"><i className="ri-linkedin-box-fill"></i></Button>
             </a>
-            <a href="https://github.com/Jeet-web2026" target="_blank" className="me-2">
+            <a href="https://github.com/saraswati7/All-JS-PROJECT" target="_blank" className="me-2">
               <Button variant="outline" className="text-lg p-2 cursor-pointer rounded-3xl"><i className="ri-github-fill"></i></Button>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=61553622085466" target="_blank" className="me-2">
+            <a href="https://www.facebook.com/share/16iVmX4Cyu/" target="_blank" className="me-2">
               <Button variant="outline" className="text-lg p-2 cursor-pointer rounded-3xl"><i className="ri-facebook-circle-fill"></i></Button>
-            </a>
-            <a href="https://x.com/Jitnath2023" target="_blank">
-              <Button variant="outline" className="text-lg p-2 cursor-pointer rounded-3xl"><i className="ri-twitter-x-line"></i></Button>
             </a>
           </div>
         </div>
