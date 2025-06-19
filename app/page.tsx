@@ -30,10 +30,10 @@ export default function Home() {
 
   useEffect(() => {
     const controls = [
-      animate(count1, 25, { duration: 2 }),
-      animate(count2, 12, { duration: 2 }),
-      animate(count3, 1.5, { duration: 2 }),
-      animate(count4, 3, { duration: 2.5 }),
+      animate(count1, 10, { duration: 2 }),
+      animate(count2, 8, { duration: 2 }),
+      animate(count3, 1, { duration: 2 }),
+      animate(count4, 2, { duration: 2.5 }),
     ]
     return () => controls.forEach(ctrl => ctrl.stop())
   }, [count1, count2, count3, count4])
@@ -41,10 +41,10 @@ export default function Home() {
     <>
       <main className="flex ma:flex-row flex-col lg:flex-row items-center justify-center lg:h-screen h-full w-full lg:px-8 px-2 gap-7 lg:pt-20 pt-40">
         <div className="lg:w-[60%] lg:pe-5 px-5">
-          <h4 className="lg:text-3xl text-xl font-semibold">Hi! I am Jit</h4>
-          <h2 className="capitalize lg:text-4xl text-2xl font-semibold lg:mt-3 mt-1">A web application developer</h2>
-          <h2 className="capitalize lg:text-5xl text-2xl font-semibold lg:mt-3 mb-5">PHP(Laravel) + Javascript</h2>
-          <p className="text-base text-wrap mb-12">I am a passionate full stack developer with a strong focus on Laravel and modern web technologies. I specialize in building robust backend systems and dynamic, responsive front-end interfaces. With a keen eye for detail and performance, I enjoy turning complex requirements into efficient, scalable web applications.</p>
+          <h4 className="lg:text-3xl text-xl font-semibold">Hi! I am Saraswati Kumar</h4>
+          <h2 className="capitalize lg:text-4xl text-2xl font-semibold lg:mt-3 mt-1">A Frontend developer</h2>
+          <h2 className="capitalize lg:text-5xl text-2xl font-semibold lg:mt-3 mb-5">React + Javascript</h2>
+          <p className="text-base text-wrap mb-12">I am a Frontend Developer with experience in building responsive, user-friendly interfaces using HTML, CSS, JavaScript, jQuery, Bootstrap, and React. Skilled in UI/UX, performance optimization, and cross-browser compatibility. Collaborative and detail-oriented, with a strong ability to convert design mockups into scalable, high-quality frontend solutions.</p>
           <div className="flex flex-row">
             <Button className="text-sm me-5 cursor-pointer rounded-3xl" variant="outline">Follow me on<i className="ri-arrow-right-s-line"></i></Button>
             <a href="https://www.linkedin.com/in/itz-jit-nath/" target="_blank" className="me-2">
@@ -74,10 +74,10 @@ export default function Home() {
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
             >
-              <Image src="/images/profile.jpg" alt="profile-image" height={250} width={250} className="rounded-2xl shadow w-full lg:w-[250px]" />
+              <Image src="/images/profile.jpeg" alt="profile-image" height={250} width={250} className="rounded-2xl shadow w-full lg:w-[250px]" />
             </motion.div>
             <div className="absolute bottom-5 w-auto bg-white rounded-full left-20 px-2 py-3 animate-bounce">
-              <Link href="tel:9163715179" className="text-black capitalize text-xl"><span className="px-2 font-medium py-1.5 me-2 bg-[#0A0A0A] rounded-full text-white"><i className="ri-phone-line"></i></span>contact me</Link>
+              <Link href="tel:6295503700" className="text-black capitalize text-xl"><span className="px-2 font-medium py-1.5 me-2 bg-[#0A0A0A] rounded-full text-white"><i className="ri-phone-line"></i></span>contact me</Link>
             </div>
           </motion.div>
         </div>
@@ -114,14 +114,8 @@ export default function Home() {
               As a frontend developer, I specialize in creating clean, responsive, and user-friendly interfaces that turn ideas into engaging digital experiences. I blend performance-focused coding with modern design principles to build websites that not only look great but also perform seamlessly across devices.
             </AccordionContent>
           </AccordionItem>
-          <AccordionItem value="item-2">
-            <AccordionTrigger className="rounded-none py-5 lg:text-xl text-lg"><span><i className="ri-php-line me-3 bg-white text-black rounded-full p-1"></i>Laravel Development</span></AccordionTrigger>
-            <AccordionContent className="mt-3 text-base px-3">
-              As a Laravel developer, I build powerful and scalable web applications using clean, secure, and well-structured code. My backend development experience is focused on delivering robust functionality, API integration, and enterprise-level features using modern PHP practices.
-            </AccordionContent>
-          </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger className="rounded-none py-5 lg:text-xl text-lg"><span><i className="ri-file-settings-line me-3 bg-white text-black rounded-full p-1"></i>Backend Development</span></AccordionTrigger>
+            <AccordionTrigger className="rounded-none py-5 lg:text-xl text-lg"><span><i className="ri-file-settings-line me-3 bg-white text-black rounded-full p-1"></i>React Development</span></AccordionTrigger>
             <AccordionContent className="mt-3 text-base px-3">
               I specialize in backend development that powers modern, secure, and high-performing web applications. My focus is on creating robust server-side logic, efficient database interactions, and scalable architecture to ensure that the frontend experience is seamless and reliable.
             </AccordionContent>
@@ -191,8 +185,8 @@ export default function Home() {
               <h2 className="text-center lg:text-4xl text-2xl capitalize"><i className="ri-brain-line me-2"></i>my experience</h2>
               <Card className="lg:mt-8 mt-3 px-12 bg-transparent border-none">
                 <CardHeader className="bg-[#1a0b26] py-5 px-5 rounded-xl shadow border-2">
-                  <CardTitle className="text-[#693DC3] text-sm">November 2024 - Present</CardTitle>
-                  <CardTitle className="uppercase text-base lg:text-2xl">Web Developer (Laravel)</CardTitle>
+                  <CardTitle className="text-[#693DC3] text-sm">March 2025 - Present</CardTitle>
+                  <CardTitle className="uppercase text-base lg:text-2xl">Frontend Developer</CardTitle>
                   <CardTitle className="text-base">DIGITYX</CardTitle>
                 </CardHeader>
                 <CardHeader className="bg-[#1a0b26] py-5 px-5 rounded-xl shadow border-2">
@@ -213,18 +207,18 @@ export default function Home() {
               <h2 className="text-center lg:text-4xl text-2xl capitalize"><i className="ri-graduation-cap-line me-2"></i>my education</h2>
               <Card className="lg:mt-8 mt-3 px-12 bg-transparent border-none">
                 <CardHeader className="bg-[#1a0b26] py-5 px-5 rounded-xl shadow border-2">
+                  <CardTitle className="text-[#693DC3] text-sm">Post Graduation</CardTitle>
+                  <CardTitle className="uppercase text-base lg:text-2xl">Masters (Computer Application)</CardTitle>
+                  <CardTitle className="text-base">Brainware University</CardTitle>
+                </CardHeader>
+                <CardHeader className="bg-[#1a0b26] py-5 px-5 rounded-xl shadow border-2">
                   <CardTitle className="text-[#693DC3] text-sm">Graduation</CardTitle>
                   <CardTitle className="uppercase text-base lg:text-2xl">Bachelor (Computer Application)</CardTitle>
-                  <CardTitle className="text-base">IGNOU</CardTitle>
+                  <CardTitle className="text-base">Brainware University</CardTitle>
                 </CardHeader>
                 <CardHeader className="bg-[#1a0b26] py-5 px-5 rounded-xl shadow border-2">
                   <CardTitle className="text-[#693DC3] text-sm">Higher Secondary</CardTitle>
                   <CardTitle className="uppercase text-base lg:text-2xl">Class XII</CardTitle>
-                  <CardTitle className="text-base">Nangi High School</CardTitle>
-                </CardHeader>
-                <CardHeader className="bg-[#1a0b26] py-5 px-5 rounded-xl shadow border-2">
-                  <CardTitle className="text-[#693DC3] text-sm">Secondary Examination</CardTitle>
-                  <CardTitle className="uppercase text-base lg:text-2xl">Class X</CardTitle>
                   <CardTitle className="text-base">Nangi High School</CardTitle>
                 </CardHeader>
               </Card>
@@ -338,30 +332,6 @@ export default function Home() {
                   <Card className="bg-[#1A0B26] border-2">
                     <CardContent className="flex items-center justify-center">
                       <div className="w-full">
-                        <span className="text-6xl text-left font-semibold"><i className="ri-nextjs-fill"></i></span>
-                        <p className="text-base text-left uppercase mt-3">next js fullstack</p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-              <CarouselItem className="md:basis-1/2 lg:basis-1/5">
-                <div className="p-1">
-                  <Card className="bg-[#1A0B26] border-2">
-                    <CardContent className="flex items-center justify-center">
-                      <div className="w-full">
-                        <span className="text-6xl font-semibold text-left"><i className="ri-php-line"></i></span>
-                        <p className="text-base uppercase mt-3 text-left">PHP Developemnt</p>
-                      </div>
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-              <CarouselItem className="md:basis-1/2 lg:basis-1/5">
-                <div className="p-1">
-                  <Card className="bg-[#1A0B26] border-2">
-                    <CardContent className="flex items-center justify-center">
-                      <div className="w-full">
                         <span className="text-6xl font-semibold text-left"><i className="ri-shapes-line"></i></span>
                         <p className="text-base text-left uppercase mt-3">responsive design</p>
                       </div>
@@ -383,18 +353,18 @@ export default function Home() {
           </Card>
           <Card className="lg:w-1/2 lg:ms-5 bg-transparent border-0 flex justify-center items-center">
             <div>
-              <Link href="tel:+919163715179" target="_blank" className="flex gap-3 items-center mb-8">
+              <Link href="tel:+916295503700" target="_blank" className="flex gap-3 items-center mb-8">
                 <Button className="rounded-full px-3 mb-0 transition duration-300 ease-in-out cursor-pointer text-xl py-5.5 hover:bg-[#1A0B26] text-[#1A0B26] hover:text-white border hover:border-white"><i className="ri-phone-line"></i></Button>
                 <div>
                   <p className="capitalize">phone</p>
-                  <h5 className="mb-0">+91 9163715179</h5>
+                  <h5 className="mb-0">+91 6295503700</h5>
                 </div>
               </Link>
-              <Link href="https://wa.me/+919163715179" target="_blank" className="flex gap-3 items-center mb-8">
+              <Link href="https://wa.me/+916295503700" target="_blank" className="flex gap-3 items-center mb-8">
                 <Button className="rounded-full px-3 mb-0 transition duration-300 ease-in-out cursor-pointer text-xl py-5.5 hover:bg-[#1A0B26] text-[#1A0B26] hover:text-white border hover:border-white"><i className="ri-whatsapp-line"></i></Button>
                 <div>
                   <p className="capitalize">whatsapp</p>
-                  <h5 className="mb-0">+91 9163715179</h5>
+                  <h5 className="mb-0">+91 6295503700</h5>
                 </div>
               </Link>
               <Link href="https://maps.app.goo.gl/L3jU9tdmk8jCvDwM8" target="_blank" className="flex gap-3 items-center">
@@ -410,9 +380,9 @@ export default function Home() {
       </section>
       <section className="lg:px-10 gap-3 md:px-9 lg:px-15 px-0 lg:py-8 py-5 bg-[#1A0B26]">
         <div className="flex lg:flex-row flex-col justify-center items-center">
-          <h5 className="capitalize text-base">copyright <i className="ri-at-fill"></i> jit nath</h5>
-          <h5 className="text-base mx-3 lg:mb-0 my-2">|<i className="ri-heart-2-fill mx-2 text-xl"></i>|</h5>
-          <Link href="mailto:jeetnath2110@gmail.com" className="lowercase text-base"><i className="ri-mail-open-line me-2"></i>jeetnath2110@gmail.com</Link>
+          <h5 className="capitalize text-base">copyright <i className="ri-at-fill"></i> saraswati kumar</h5>
+          <h5 className="text-base mx-3 lg:mb-0">|<i className="ri-heart-2-fill mx-2 text-xl"></i>|</h5>
+          <Link href="mailto:kusaraswati45a@gmail.com" className="lowercase text-base"><i className="ri-mail-open-line me-2"></i>kusaraswati45a@gmail.com</Link>
         </div>
       </section>
     </>

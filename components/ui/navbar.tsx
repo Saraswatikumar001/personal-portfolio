@@ -10,9 +10,8 @@ export const Navbar = () => {
     return (
         <nav className='flex lg:flex-row lg:justify-between items-center lg:px-8 lg:px-5 px-1 fixed left-0 w-full z-50' style={{ background: 'linear-gradient(81deg,rgba(15, 7, 22, 1) 35%, rgba(9, 9, 121, 1) 99%)' }}>
             <div className='flex w-full lg:w-auto lg:justify-start justify-between items-center'>
-                <Link href="/"><Image src="/images/p-logo.png" alt="portfolio-logo" width={100} height={100} className='rounded-full shadow lg:h-[100px] h-[75px] lg:w-[100px] w-[75px]' /></Link>
-                <div className="flex justify-between items-center">
-                    <a className='text-base hover:bg-blue-200 p-2 transition delay-50 duration-200 hover:text-[#0A0A0A] lg:shadow rounded-full' href='mailto:jeetnath2110@gmail.com'><span className='me-2 rounded-full lg:shadow lg:bg-white px-2 lg:text-lg text-2xl py-[5px] lg:text-[#0A0A0A] text-white'><i className="ri-mail-send-fill"></i></span><span className='lg:inline hidden'>jeetnath2110@gmail.com</span></a>
+                <div className="flex justify-between items-center py-10">
+                    <a className='text-base hover:bg-blue-200 p-2 transition delay-50 duration-200 hover:text-[#0A0A0A] lg:shadow rounded-full' href='mailto:kusaraswati45a@gmail.com'><span className='me-2 rounded-full lg:shadow lg:bg-white px-2 lg:text-lg text-2xl py-[5px] lg:text-[#0A0A0A] text-white'><i className="ri-mail-send-fill"></i></span><span className='lg:inline hidden'>kusaraswati45a@gmail.com</span></a>
                     <Sheet>
                         <SheetTrigger asChild>
                             <Button className='bg-transparent lg:hidden text-white text-2xl px-3'><i className="ri-menu-3-line"></i></Button>
