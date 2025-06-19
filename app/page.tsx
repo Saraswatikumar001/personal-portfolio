@@ -114,7 +114,7 @@ export default function Home() {
           <AccordionItem value="item-3">
             <AccordionTrigger className="rounded-none py-5 lg:text-xl text-lg"><span><i className="ri-file-settings-line me-3 bg-white text-black rounded-full p-1"></i>React Development</span></AccordionTrigger>
             <AccordionContent className="mt-3 text-base px-3">
-              I specialize in backend development that powers modern, secure, and high-performing web applications. My focus is on creating robust server-side logic, efficient database interactions, and scalable architecture to ensure that the frontend experience is seamless and reliable.
+              I specialize in React project using Vite, first ensure Node.js and npm are installed. Then, run the command npm create vite@latest my-app -- --template react to create a new React project with Vite’s fast build setup. Navigate into the project folder with cd my-app, install dependencies using npm install, and start the development server with npm run dev. Vite offers a lightweight and fast development experience compared to Create React App. Inside the src folder, you can create functional components using JSX, manage data with hooks like useState and useEffect, and use tools like react-router-dom for routing. Styling can be added using CSS, Tailwind, or any preferred library. Once your app is ready, use npm run build to generate a production-ready build and deploy it using platforms like Vercel, Netlify, or GitHub Pages.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
